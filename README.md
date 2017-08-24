@@ -1,6 +1,9 @@
 # ahcg_pipeline
 Variant calling pipeline for genomic data analysis
 
+## Personal Details
+Name: Karan Kapuria
+
 ## Requirements
 
 1. [Python3 - version 3.4.1](https://www.python.org/download/releases/3.4.1/)

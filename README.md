@@ -1,8 +1,12 @@
-# ahcg_pipeline
-Variant calling pipeline for genomic data analysis
+# AHCG Pipeline 2017 
+Variant calling pipeline for genomic data analysis 
 
 ## Personal Details
-Name: Karan Kapuria
+Name: [Karan Kapuria](www.prism.gatech.edu/~kkapuria3)
+Info: 2nd Year MS Bioinformatics student
+
+## Mission Statement
+To create adaptive computational pipeline using existing tools which can aid in early detection of cancer before symptoms emerge.   
 
 ## Requirements
 

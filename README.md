@@ -1,6 +1,4 @@
 # AHCG SNP Pipeline 2017 
-Name: Karan Kapuria
-Title: Georgia Institute of Technology
 Variant calling pipeline for genomic data analysis 
 
 
@@ -10,6 +8,15 @@ Info: 2nd Year MS Bioinformatics student
 
 ## Mission Statement
 To create adaptive computational pipeline using existing tools which can aid in early detection of cancer before symptoms emerge.   
+
+## What is Liquid Biopsy ?
+A test done on a sample of blood to look for cancer cells from a tumor that are circulating in the blood or for pieces of DNA from tumor cells that are in the blood. A liquid biopsy may be used to help find cancer at an early stage. It may also be used to help plan treatment or to find out how well treatment is working or if cancer has come back. 
+
+## Alterations obeserved in Liquid Biopsy 
+   1. Epigenetic modifications: Bisulfite sequencing to detect methylation
+   2. Single nucleotide variants (SNV's): Variation in nucleotide that can be present in somatic cells
+   3. Copy number alterations (CNA's): Changes in copy number of genes present in somatic tissue
+
 
 ## Requirements
 

@@ -1,5 +1,8 @@
-# AHCG Pipeline 2017 
+# AHCG SNP Pipeline 2017 
+Name: Karan Kapuria
+Title: Georgia Institute of Technology
 Variant calling pipeline for genomic data analysis 
+
 
 ## Personal Details
 Name: [Karan Kapuria](www.prism.gatech.edu/~kkapuria3)

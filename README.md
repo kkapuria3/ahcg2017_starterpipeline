@@ -17,14 +17,36 @@ A test done on a sample of blood to look for cancer cells from a tumor that are 
    2. Single nucleotide variants (SNV's): Variation in nucleotide that can be present in somatic cells
    3. Copy number alterations (CNA's): Changes in copy number of genes present in somatic tissue
 
+## Main features of pipeline
+
+   1. Takes configuration file of parameters as input
+   2. Automatic project sample retrieving from SRA website
+   3. Filters variants by quality (QUAL>=30) and depth (DP>=25)
+   4. Calculates median, average, and max coverage of certain genes
+   5. Detects copy number variants (CNVs) and plots summary results
 
 ## Requirements
 
-1. [Python3 - version 3.4.1](https://www.python.org/download/releases/3.4.1/)
-2. [Trimmomatic - version 0.36](http://www.usadellab.org/cms/uploads/supplementary/Trimmomatic/Trimmomatic-0.36.zip)
-3. [Bowtie2 - version 2.2.9](https://sourceforge.net/projects/bowtie-bio/files/bowtie2/2.2.9/)
-4. [Picard tools - version 2.6.0](https://github.com/broadinstitute/picard/releases/download/2.6.0/picard.jar)
-5. [GATK - version 3.4](https://software.broadinstitute.org/gatk/download/)
+### Programming Languages:
+
+    Python3, Version 3.6.2
+    R language, Version 3.3.2
+
+### Pre-processing and alignment:
+
+    Read quality trimming: Trimmomatic, Version 0.36
+    Reference-based read aligner: Bowtie2, Version 2.3.2
+    Process SAM/BAM alignment files: Samtools, Version 1.6
+
+### Call variants and post-processing:
+
+    Manipulate genomic data files: Picard tools, Version 2.11.0
+    Detect variants with HaplotypeCaller: GATK, Version 3.8.0
+
+### Analyze and evaluate somatic variants:
+
+    Detect copy-number changes: Control-FREEC, Version 11.0
+
 
 ## Reference genome
 
